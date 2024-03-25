@@ -28,7 +28,6 @@ function App() {
     // Функція для скидання стану до початкового значення та оновлення локального сховища
     const resetFeedback = () => {
         setState(initialState);
-        localStorage.setItem('feedbackState', JSON.stringify(state));
     };
 
     // Обчислення загальної кількості відгуків
